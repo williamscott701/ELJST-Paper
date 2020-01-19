@@ -1,0 +1,434 @@
+twitter_airline_2_7168 noembeds entered
+twitter_airline_2_7168 bert_0.95 entered
+twitter_airline_2_7168 bert_attention entered
+twitter_airline_2_7168 fasttext_0.3 entered
+twitter_airline_2_7168 fasttext_0.6 entered
+twitter_airline_2_7168 glove_0.3 entered
+twitter_airline_2_7168 glove_0.6 entered
+amazon_electronics_2_20000 noembeds entered
+amazon_electronics_2_20000 bert_0.95 entered
+amazon_electronics_2_20000 bert_attention entered
+amazon_electronics_2_20000 fasttext_0.3 entered
+amazon_electronics_2_20000 fasttext_0.6 entered
+amazon_electronics_2_20000 glove_0.3 entered
+amazon_electronics_2_20000 glove_0.6 entered
+amazon_movies_2_20000 noembeds entered
+amazon_movies_2_20000 bert_0.95 entered
+amazon_movies_2_20000 bert_attention entered
+amazon_movies_2_20000 fasttext_0.3 entered
+amazon_movies_2_20000 fasttext_0.6 entered
+amazon_movies_2_20000 glove_0.3 entered
+amazon_movies_2_20000 glove_0.6 entered
+imdb_reviews_2_20000 noembeds entered
+imdb_reviews_2_20000 bert_0.95 entered
+imdb_reviews_2_20000 bert_attention entered
+imdb_reviews_2_20000 fasttext_0.3 entered
+imdb_reviews_2_20000 fasttext_0.6 entered
+imdb_reviews_2_20000 glove_0.3 twitter_airline_2_7168_bert_attentionentered Loaded Embeddings
+
+imdb_reviews_2_20000twitter_airline_2_7168_bert_0.95  Loaded Embeddingsglove_0.6
+ entered
+twitter_airline_2_7168_fasttext_0.3 Loaded Embeddings
+twitter_airline_2_7168_noembeds Created Embeddings
+twitter_airline_2_7168_fasttext_0.6 Loaded Embeddings
+twitter_airline_2_7168_glove_0.3 Loaded Embeddings
+twitter_airline_2_7168_glove_0.6 Loaded Embeddings
+amazon_electronics_2_20000_fasttext_0.6 Loaded Embeddings
+amazon_electronics_2_20000_glove_0.3 Loaded Embeddings
+amazon_electronics_2_20000_bert_0.95 Loaded Embeddings
+amazon_electronics_2_20000_fasttext_0.3 Loaded Embeddings
+amazon_electronics_2_20000_noembeds Created Embeddings
+amazon_electronics_2_20000_bert_attention Loaded Embeddings
+amazon_movies_2_20000_noembeds Created Embeddings
+amazon_electronics_2_20000_glove_0.6 Loaded Embeddings
+imdb_reviews_2_20000_bert_0.95 Loaded Embeddings
+imdb_reviews_2_20000_bert_attention Loaded Embeddings
+amazon_movies_2_20000_bert_0.95 Loaded Embeddings
+amazon_movies_2_20000_fasttext_0.3 Loaded Embeddings
+amazon_movies_2_20000_fasttext_0.6amazon_movies_2_20000_bert_attention  Loaded EmbeddingsLoaded Embeddings
+
+imdb_reviews_2_20000_noembeds Created Embeddings
+imdb_reviews_2_20000_glove_0.6 imdb_reviews_2_20000_glove_0.3Loaded Embeddings 
+Loaded Embeddings
+imdb_reviews_2_20000_fasttext_0.6 Loaded Embeddings
+imdb_reviews_2_20000_fasttext_0.3 Loaded Embeddings
+amazon_movies_2_20000_glove_0.6 Loaded Embeddings
+amazon_movies_2_20000_glove_0.3 Loaded Embeddings
+1283 (7168, 1283)
+1283 (7168, 1283)
+1283 (7168, 1283)
+1283 (7168, 1283)
+1283 (7168, 1283)
+1283 (7168, 1283)
+1283 (7168, 1283)
+4888 (20000, 4888)
+11144 (20000, 11144)
+8833 (20000, 8833)
+4888 (20000, 4888)
+4888 (20000, 4888)
+4888 (20000, 4888)
+8833 (20000, 8833)
+8833 (20000, 8833)
+4888 (20000, 4888)
+8833 (20000, 8833)
+11144 (20000, 11144)
+8833 (20000, 8833)
+8833 (20000, 8833)
+11144 (20000, 11144)
+** twitter_airline_2_7168_noembeds 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+twitter_airline_2_7168_noembeds failed
+** twitter_airline_2_7168_glove_0.6 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+twitter_airline_2_7168_glove_0.6 failed
+11144 (20000, 11144)
+4888 (20000, 4888)
+11144 (20000, 11144)
+** twitter_airline_2_7168_glove_0.3 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+twitter_airline_2_7168_glove_0.3 failed
+** twitter_airline_2_7168_fasttext_0.3 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+twitter_airline_2_7168_fasttext_0.3 failed
+** twitter_airline_2_7168_bert_attention 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+twitter_airline_2_7168_bert_attention failed
+8833 (20000, 8833)
+11144 (20000, 11144)
+4888 (20000, 4888)
+** twitter_airline_2_7168_bert_0.95 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+twitter_airline_2_7168_bert_0.95 failed
+** twitter_airline_2_7168_fasttext_0.6 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+twitter_airline_2_7168_fasttext_0.6 failed
+11144 (20000, 11144)
+** amazon_electronics_2_20000_noembeds 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_electronics_2_20000_noembeds failed
+** amazon_electronics_2_20000_fasttext_0.6 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_electronics_2_20000_fasttext_0.6 failed
+** amazon_electronics_2_20000_glove_0.6 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_electronics_2_20000_glove_0.6 failed
+** amazon_electronics_2_20000_bert_attention 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_electronics_2_20000_bert_attention failed
+** imdb_reviews_2_20000_glove_0.6 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+imdb_reviews_2_20000_glove_0.6 failed
+** imdb_reviews_2_20000_bert_attention 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+imdb_reviews_2_20000_bert_attention failed
+** amazon_electronics_2_20000_glove_0.3 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_electronics_2_20000_glove_0.3 failed
+** imdb_reviews_2_20000_noembeds 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+imdb_reviews_2_20000_noembeds failed
+** imdb_reviews_2_20000_fasttext_0.6 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+imdb_reviews_2_20000_fasttext_0.6 failed
+** amazon_electronics_2_20000_bert_0.95 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_electronics_2_20000_bert_0.95 failed
+** imdb_reviews_2_20000_bert_0.95 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+imdb_reviews_2_20000_bert_0.95 failed
+** imdb_reviews_2_20000_glove_0.3 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+imdb_reviews_2_20000_glove_0.3 failed
+** amazon_electronics_2_20000_fasttext_0.3 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_electronics_2_20000_fasttext_0.3 failed
+** imdb_reviews_2_20000_fasttext_0.3 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+imdb_reviews_2_20000_fasttext_0.3 failed
+** amazon_movies_2_20000_glove_0.6 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_movies_2_20000_glove_0.6 failed
+** amazon_movies_2_20000_bert_attention 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_movies_2_20000_bert_attention failed
+** amazon_movies_2_20000_fasttext_0.6 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_movies_2_20000_fasttext_0.6 failed
+** amazon_movies_2_20000_bert_0.95 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_movies_2_20000_bert_0.95 failed
+** amazon_movies_2_20000_noembeds 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_movies_2_20000_noembeds failed
+** amazon_movies_2_20000_glove_0.3 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_movies_2_20000_glove_0.3 failed
+** amazon_movies_2_20000_fasttext_0.3 0
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:226: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:227: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:59: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan]
+/home/william18026/Embedding-LJST-Paper/ELJST_script_unigram.py:62: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+pvals < 0, pvals > 1 or pvals contains NaNs
+amazon_movies_2_20000_fasttext_0.3 failed
