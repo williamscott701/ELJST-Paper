@@ -1,28 +1,54 @@
-amazon_electronics_2_20000 noembeds entered
-amazon_electronics_2_20000 bert_0.95 entered
-amazon_electronics_2_20000 bert_attention entered
-amazon_electronics_2_20000 fasttext_0.3 entered
-amazon_electronics_2_20000 fasttext_0.6 entered
-amazon_electronics_2_20000 glove_0.3 entered
-amazon_electronics_2_20000 glove_0.6 entered
-amazon_movies_2_20000 noembeds entered
-amazon_movies_2_20000 bert_0.95 entered
-amazon_movies_2_20000 bert_attention entered
-amazon_movies_2_20000 fasttext_0.3 entered
-amazon_movies_2_20000 fasttext_0.6 entered
-amazon_movies_2_20000 glove_0.3 entered
-amazon_movies_2_20000 glove_0.6 entered
-imdb_reviews_2_20000 noembeds entered
-imdb_reviews_2_20000 bert_0.95 entered
-imdb_reviews_2_20000 bert_attention entered
-imdb_reviews_2_20000 fasttext_0.3 entered
-imdb_reviews_2_20000 fasttext_0.6 entered
-imdb_reviews_2_20000 glove_0.3 entered
-imdb_reviews_2_20000 glove_0.6 entered
-twitter_airline_2_7168twitter_airline_2_7168 bert_0.95  noembedsentered 
-entered
-twitter_airline_2_7168 bert_attention entered
-twitter_airline_2_7168 fasttext_0.3 entered
-twitter_airline_2_7168 fasttext_0.6 entered
-twitter_airline_2_7168 glove_0.3 entered
-twitter_airline_2_7168 glove_0.6 entered
+amazon_movies_20000 trained_0.3 entered
+amazon_movies_20000 trained_0.6 entered
+amazon_kindle_20000 trained_0.3 entered
+amazon_kindle_20000 trained_0.6 entered
+amazon_kindle_20000 trained_0.3 entered
+amazon_kindle_20000 trained_0.6 entered
+** amazon_kindle_20000_trained_0.6 0
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:393: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:394: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:399: RuntimeWarning: overflow encountered in exp
+  topic_assignment2 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:400: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment2 /= topic_assignment2.sum()
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:128: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+amazon_kindle_20000_trained_0.6 failed
+** amazon_kindle_20000_trained_0.3 0
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:393: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:394: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:399: RuntimeWarning: overflow encountered in exp
+  topic_assignment2 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:400: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment2 /= topic_assignment2.sum()
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:128: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+amazon_kindle_20000_trained_0.3 failed
+** amazon_kindle_20000_trained_0.6 0
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:393: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:394: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:399: RuntimeWarning: overflow encountered in exp
+  topic_assignment2 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:400: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment2 /= topic_assignment2.sum()
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:128: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+amazon_kindle_20000_trained_0.6 failed
+** amazon_kindle_20000_trained_0.3 0
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:393: RuntimeWarning: overflow encountered in exp
+  topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:394: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment1 /= topic_assignment1.sum()
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:399: RuntimeWarning: overflow encountered in exp
+  topic_assignment2 = np.exp(self.lambda_param * topic_assignment)
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:400: RuntimeWarning: invalid value encountered in true_divide
+  topic_assignment2 /= topic_assignment2.sum()
+/home/william18026/ELJST-Paper/ELJST_script_BTM.py:128: RuntimeWarning: invalid value encountered in greater_equal
+  return np.random.multinomial(1, theta).argmax()
+amazon_kindle_20000_trained_0.3 failed

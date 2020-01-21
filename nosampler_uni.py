@@ -17,38 +17,12 @@ import utils as my_utils
 import ELJST_script_unigram as lda
 import matplotlib.pyplot as plt
         
-
-grid = [['twitter_airline_2_7168', 'noembeds'],
-        ['twitter_airline_2_7168', 'bert_0.95'],
-        ['twitter_airline_2_7168', 'bert_attention'],
-        ['twitter_airline_2_7168', 'fasttext_0.3'],
-        ['twitter_airline_2_7168', 'fasttext_0.6'],
-        ['twitter_airline_2_7168', 'glove_0.3'],
-        ['twitter_airline_2_7168', 'glove_0.6'],
-       
-        ['amazon_electronics_2_20000', 'noembeds'],
-        ['amazon_electronics_2_20000', 'bert_0.95'],
-        ['amazon_electronics_2_20000', 'bert_attention'],
-        ['amazon_electronics_2_20000', 'fasttext_0.3'],
-        ['amazon_electronics_2_20000', 'fasttext_0.6'],
-        ['amazon_electronics_2_20000', 'glove_0.3'],
-        ['amazon_electronics_2_20000', 'glove_0.6'],
-        
-        ['amazon_movies_2_20000', 'noembeds'],
-        ['amazon_movies_2_20000', 'bert_0.95'],
-        ['amazon_movies_2_20000', 'bert_attention'],
-        ['amazon_movies_2_20000', 'fasttext_0.3'],
-        ['amazon_movies_2_20000', 'fasttext_0.6'],
-        ['amazon_movies_2_20000', 'glove_0.3'],
-        ['amazon_movies_2_20000', 'glove_0.6'],
-        
-        ['imdb_reviews_2_20000', 'noembeds'],
-        ['imdb_reviews_2_20000', 'bert_0.95'],
-        ['imdb_reviews_2_20000', 'bert_attention'],
-        ['imdb_reviews_2_20000', 'fasttext_0.3'],
-        ['imdb_reviews_2_20000', 'fasttext_0.6'],
-        ['imdb_reviews_2_20000', 'glove_0.3'],
-        ['imdb_reviews_2_20000', 'glove_0.6']]
+grid = [['amazon_movies_20000', 'trained_0.3'],
+        ['amazon_movies_20000', 'trained_0.6'],
+        ['amazon_kindle_20000', 'trained_0.3'],
+        ['amazon_kindle_20000', 'trained_0.6'],
+        ['amazon_kindle_20000', 'trained_0.3'],
+        ['amazon_kindle_20000', 'trained_0.6']]
 
 
 #         [['amazon_electronics_20000', 'bert_attention'],
