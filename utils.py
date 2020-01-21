@@ -57,6 +57,18 @@ def preprocess(pd):
     pd = pd.apply(lambda x: " ".join(x))
     return pd
 
+def preprocess2(pd):
+    pd = pd.str.lower()
+    pd = pd.str.replace('[^a-zA-Z]', ' ')
+    pd = pd.apply(lambda x: [w for w in w_tokenizer.tokenize(x)])
+    pd = pd.str.join(' ')
+    
+    pd = pd.apply(lambda x: [lemmatizer.lemmatize(w) for w in w_tokenizer.tokenize(x)])
+    pd = pd.apply(lambda x: [lemmatizer.lemmatize(w, 'v') for w in x])
+    pd = pd.apply(lambda x: [item for item in x if item not in stop_words])
+    pd = pd.apply(lambda x: " ".join(x))
+    return pd
+
 # def preprocess(pd):
 #     pd = pd.str.lower()
 #     pd = pd.str.replace('[{}]'.format('!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~\n\t'), ' ')
