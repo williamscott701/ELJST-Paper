@@ -217,24 +217,21 @@ class SentimentLDAGibbsSampler:
             
             # all_children = similar_words[v,:] #[d][i1,:]
             new_C = self.vts[all_children,:, :]
-            topic_assignment = new_C.sum(0)
+            topic_assignment = new_C.sum(0) + 0.1
             
 #             topic_assignment /= topic_assignment.sum()
 #             topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
             #topic_assignment = np.exp(topic_assignment)
-            #topic_assignment /= topic_assignment.sum()
+            topic_assignment /= topic_assignment.sum()
             topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
-            topic_assignment1 /= topic_assignment1.sum()
+#             topic_assignment1 /= topic_assignment1.sum()
 
         if debug_mode == True:
-            print (probabilities_ts, topic_assignment1)
+            print (topic_assignment, topic_assignment1)
         
         probabilities_ts *= topic_assignment1
         probabilities_ts /= np.sum(probabilities_ts)
 
-        if debug_mode == True:
-            print (probabilities_ts)
-            
         return probabilities_ts
 
     def getTopKWords(self, K):
@@ -352,8 +349,9 @@ class SentimentLDAGibbsSampler:
                     self.n_vts[v, t, s] -= 1
                     self.n_ts[t, s] -= 1
                     self.vts[v,t,s] = 0
-
-                    probabilities_ts = self.conditionalDistribution(d, v, similar_words[idx], mrf)
+                    
+#                     print(d, v, idx)
+                    probabilities_ts = self.conditionalDistribution(d, v, similar_words[idx], mrf, debug_mode=False)
                     #if v in self.priorSentiment:
                     #    s = self.priorSentiment[v]
                     #    t = sampleFromCategorical(probabilities_ts[:, s])

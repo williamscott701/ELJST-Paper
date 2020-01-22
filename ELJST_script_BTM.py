@@ -374,8 +374,8 @@ class SentimentLDAGibbsSampler:
             probabilities_ts /= np.sum(probabilities_ts)
 
             if mrf == True and self.lambda_param != 0:
-                all_children = np.zeros(self.wordOccuranceMatrix_shape).astype(int)
-                all_children_2 = np.zeros(self.wordOccuranceMatrix_shape).astype(int)
+                all_children = np.zeros(self.wordOccuranceMatrix_shape).astype(int) + 0.1
+                all_children_2 = np.zeros(self.wordOccuranceMatrix_shape).astype(int) + 0.1
                 try:
                     all_children[similar_words[i1]] = 1
                 except:
@@ -390,14 +390,16 @@ class SentimentLDAGibbsSampler:
 #                 all_children = similar_words[i1,:] #[d][i1,:]
 #                 new_C = self.vts[all_children,:, :]
                 topic_assignment = new_C.sum(0)
+                topic_assignment /= topic_assignment.sum()
                 topic_assignment1 = np.exp(self.lambda_param * topic_assignment)
-                topic_assignment1 /= topic_assignment1.sum()
+#                 topic_assignment1 /= topic_assignment1.sum()
 
 #                 all_children = similar_words[i2,:] #[d][i2,:]
                 new_C = self.vts[all_children_2,:, :]
                 topic_assignment = new_C.sum(0)
+                topic_assignment /= topic_assignment.sum()
                 topic_assignment2 = np.exp(self.lambda_param * topic_assignment)
-                topic_assignment2 /= topic_assignment2.sum()
+#                 topic_assignment2 /= topic_assignment2.sum()
 
                 if debug_mode == True:
                     print(similar_words[i2], similar_words[i1])
