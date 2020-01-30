@@ -28,11 +28,18 @@ import pickle
 import utils as my_utils
 from sklearn.metrics import silhouette_score, davies_bouldin_score
 
-grid = ['amazon_home_20000',
-       'amazon_kindle_20000',
-       'amazon_movies_20000']
+grid = [['amazon_home_20000', 50],
+        ['amazon_kindle_20000', 50],
+        ['amazon_movies_20000', 50],
+        ['amazon_home_20000', 100],
+        ['amazon_kindle_20000', 100],
+        ['amazon_movies_20000', 100]]
 
-def process_sampler(dataset_name):
+def process_sampler(inp):
+    
+    dataset_name = inp[0]
+    n_topics = inp[1]
+    
     embedding_name = "glove_0.6"
     
     print(dataset_name, "entered")
@@ -47,7 +54,6 @@ def process_sampler(dataset_name):
 
     beta=0.1
     alpha=0.1
-    n_topics = 25
     lambda_param = 1.0
     maxiter = 20
 
@@ -58,7 +64,7 @@ def process_sampler(dataset_name):
 
     try:
         sampler.run(name=dataset_name, edge_dict=docs_edges, maxiter=maxiter, debug=False)
-        joblib.dump(sampler, "dumps/mrf_lda/" + dataset_name + "_" + embedding_name + "_25topics")
+        joblib.dump(sampler, "dumps/mrf_lda/" + dataset_name + "_" + embedding_name + "_" + str(n_topics) + "topics")
         print(dataset_name, "dumped")
     except:
         print(dataset_name, "failed")

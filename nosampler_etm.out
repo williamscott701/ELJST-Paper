@@ -1,69 +1,65 @@
 amazon_home_20000 entered
 amazon_kindle_20000 entered
 amazon_movies_20000 entered
+amazon_home_20000 entered
+amazon_kindle_20000 entered
+amazon_movies_20000 entered
+3998 (20000, 3998)
 3998 (20000, 3998)
 4936 (20000, 4936)
+4936 (20000, 4936)
+5863 (20000, 5863)
 5863 (20000, 5863)
 ** amazon_kindle_20000 0
 ** amazon_home_20000 0
 ** amazon_movies_20000 0
+** amazon_home_20000 0
+** amazon_movies_20000 0
+** amazon_kindle_20000 0
 ** amazon_home_20000 1
 ** amazon_kindle_20000 1
 ** amazon_movies_20000 1
+** amazon_home_20000 1
 ** amazon_home_20000 2
 ** amazon_kindle_20000 2
+** amazon_kindle_20000 1
 ** amazon_movies_20000 2
+** amazon_movies_20000 1
 ** amazon_home_20000 3
 ** amazon_kindle_20000 3
-** amazon_movies_20000 3
+** amazon_home_20000 2
 ** amazon_home_20000 4
+** amazon_movies_20000 3
 ** amazon_kindle_20000 4
+** amazon_kindle_20000 2
 ** amazon_home_20000 5
 ** amazon_kindle_20000 5
 ** amazon_movies_20000 4
+** amazon_movies_20000 2
+** amazon_home_20000 3
 ** amazon_home_20000 6
 ** amazon_kindle_20000 6
-** amazon_movies_20000 5
+** amazon_kindle_20000 3
 ** amazon_home_20000 7
+** amazon_movies_20000 5
+** amazon_home_20000 4
 ** amazon_kindle_20000 7
-** amazon_movies_20000 6
 ** amazon_home_20000 8
+** amazon_movies_20000 3
+** amazon_movies_20000 6
+** amazon_kindle_20000 4
 ** amazon_kindle_20000 8
 ** amazon_home_20000 9
+** amazon_home_20000 5
 ** amazon_movies_20000 7
 ** amazon_kindle_20000 9
 ** amazon_home_20000 10
+** amazon_movies_20000 4
+** amazon_kindle_20000 5
+** amazon_home_20000 11
 ** amazon_kindle_20000 10
 ** amazon_movies_20000 8
-** amazon_home_20000 11
+** amazon_home_20000 6
+** amazon_home_20000 12
 ** amazon_kindle_20000 11
 ** amazon_movies_20000 9
-** amazon_home_20000 12
-** amazon_kindle_20000 12
-** amazon_home_20000 13
-** amazon_movies_20000 10
-** amazon_kindle_20000 13
-** amazon_home_20000 14
-** amazon_kindle_20000 14
-** amazon_movies_20000 11
-** amazon_home_20000 15
-** amazon_kindle_20000 15
-** amazon_home_20000 16
-** amazon_movies_20000 12
-** amazon_kindle_20000 16
-** amazon_home_20000 17
-** amazon_movies_20000 13
-** amazon_kindle_20000 17
-** amazon_home_20000 18
-** amazon_movies_20000 14
-** amazon_kindle_20000 18
-** amazon_home_20000 19
-** amazon_movies_20000 15
-** amazon_kindle_20000 19
-amazon_home_20000 dumped
-amazon_kindle_20000 dumped
-** amazon_movies_20000 16
-** amazon_movies_20000 17
-** amazon_movies_20000 18
-** amazon_movies_20000 19
-amazon_movies_20000 dumped

@@ -17,37 +17,120 @@ import utils as my_utils
 import ELJST_script_unigram as lda
 import matplotlib.pyplot as plt
         
-grid = [['amazon_movies_20000', 'trained_0.3'],
-        ['amazon_movies_20000', 'trained_0.6'],
-        ['amazon_kindle_20000', 'trained_0.3'],
-        ['amazon_kindle_20000', 'trained_0.6'],
-        ['amazon_kindle_20000', 'trained_0.3'],
-        ['amazon_kindle_20000', 'trained_0.6']]
-
-
-#         [['amazon_electronics_20000', 'bert_attention'],
-#         ['amazon_electronics_20000', 'fasttext_0.3'],
-#         ['amazon_electronics_20000', 'fasttext_0.6'],
-#         ['amazon_electronics_20000', 'glove_0.3'],
-#         ['amazon_electronics_20000', 'glove_0.6'],
+grid = [['amazon_home_20000', 'bert_0.95', 25],
+        ['amazon_home_20000', 'bert_0.95', 50],
+        ['amazon_home_20000', 'bert_0.95', 100],
         
-#         ['imdb_reviews_20000', 'bert_0.95'],
-#         ['imdb_reviews_20000', 'bert_attention'],
-#         ['imdb_reviews_20000', 'fasttext_0.3'],
-#         ['imdb_reviews_20000', 'fasttext_0.6'],
-#         ['imdb_reviews_20000', 'glove_0.6'],
+        ['amazon_home_20000', 'bert_attention', 25],
+        ['amazon_home_20000', 'bert_attention', 50],
+        ['amazon_home_20000', 'bert_attention', 100],
         
-#         ['twitter_airline_9061', 'bert_0.95'],
-#         ['twitter_airline_9061', 'fasttext_0.3'],
-#         ['twitter_airline_9061', 'fasttext_0.6'],
-#         ['twitter_airline_9061', 'glove_0.3'],
-#         ['twitter_airline_9061', 'glove_0.6']]
+        ['amazon_home_20000', 'fasttext_0.3', 25],
+        ['amazon_home_20000', 'fasttext_0.3', 50],
+        ['amazon_home_20000', 'fasttext_0.3', 100],
+        
+        ['amazon_home_20000', 'fasttext_0.6', 25],
+        ['amazon_home_20000', 'fasttext_0.6', 50],
+        ['amazon_home_20000', 'fasttext_0.6', 100],
+        
+        ['amazon_home_20000', 'glove_0.3', 25],
+        ['amazon_home_20000', 'glove_0.3', 50],
+        ['amazon_home_20000', 'glove_0.3', 100],
+        
+        ['amazon_home_20000', 'glove_0.6', 25],
+        ['amazon_home_20000', 'glove_0.6', 50],
+        ['amazon_home_20000', 'glove_0.6', 100],
+        
+        ['amazon_home_20000', 'trained_0.3', 25],
+        ['amazon_home_20000', 'trained_0.3', 50],
+        ['amazon_home_20000', 'trained_0.3', 100],
+        
+        ['amazon_home_20000', 'trained_0.6', 25],
+        ['amazon_home_20000', 'trained_0.6', 50],
+        ['amazon_home_20000', 'trained_0.6', 100],
+        
+        ['amazon_home_20000', 'noembeds', 25],
+        ['amazon_home_20000', 'noembeds', 50],
+        ['amazon_home_20000', 'noembeds', 100],
+       
+       ['amazon_movies_20000', 'bert_0.95', 25],
+        ['amazon_movies_20000', 'bert_0.95', 50],
+        ['amazon_movies_20000', 'bert_0.95', 100],
+        
+        ['amazon_movies_20000', 'bert_attention', 25],
+        ['amazon_movies_20000', 'bert_attention', 50],
+        ['amazon_movies_20000', 'bert_attention', 100],
+        
+        ['amazon_home_20000', 'fasttext_0.3', 25],
+        ['amazon_home_20000', 'fasttext_0.3', 50],
+        ['amazon_home_20000', 'fasttext_0.3', 100],
+        
+        ['amazon_movies_20000', 'fasttext_0.6', 25],
+        ['amazon_movies_20000', 'fasttext_0.6', 50],
+        ['amazon_movies_20000', 'fasttext_0.6', 100],
+        
+        ['amazon_movies_20000', 'glove_0.3', 25],
+        ['amazon_movies_20000', 'glove_0.3', 50],
+        ['amazon_movies_20000', 'glove_0.3', 100],
+        
+        ['amazon_movies_20000', 'glove_0.6', 25],
+        ['amazon_movies_20000', 'glove_0.6', 50],
+        ['amazon_movies_20000', 'glove_0.6', 100],
+        
+        ['amazon_home_20000', 'trained_0.3', 25],
+        ['amazon_home_20000', 'trained_0.3', 50],
+        ['amazon_home_20000', 'trained_0.3', 100],
+        
+        ['amazon_movies_20000', 'trained_0.6', 25],
+        ['amazon_movies_20000', 'trained_0.6', 50],
+        ['amazon_movies_20000', 'trained_0.6', 100],
+        
+        ['amazon_movies_20000', 'noembeds', 25],
+        ['amazon_movies_20000', 'noembeds', 50],
+        ['amazon_movies_20000', 'noembeds', 100],
+       
+       ['amazon_kindle_20000', 'bert_0.95', 25],
+        ['amazon_kindle_20000', 'bert_0.95', 50],
+        ['amazon_kindle_20000', 'bert_0.95', 100],
+        
+        ['amazon_kindle_20000', 'bert_attention', 25],
+        ['amazon_kindle_20000', 'bert_attention', 50],
+        ['amazon_kindle_20000', 'bert_attention', 100],
+        
+        ['amazon_kindle_20000', 'fasttext_0.3', 25],
+        ['amazon_kindle_20000', 'fasttext_0.3', 50],
+        ['amazon_kindle_20000', 'fasttext_0.3', 100],
+        
+        ['amazon_kindle_20000', 'fasttext_0.6', 25],
+        ['amazon_kindle_20000', 'fasttext_0.6', 50],
+        ['amazon_kindle_20000', 'fasttext_0.6', 100],
+        
+        ['amazon_kindle_20000', 'glove_0.3', 25],
+        ['amazon_kindle_20000', 'glove_0.3', 50],
+        ['amazon_kindle_20000', 'glove_0.3', 100],
+        
+        ['amazon_kindle_20000', 'glove_0.6', 25],
+        ['amazon_kindle_20000', 'glove_0.6', 50],
+        ['amazon_kindle_20000', 'glove_0.6', 100],
+        
+        ['amazon_kindle_20000', 'trained_0.3', 25],
+        ['amazon_kindle_20000', 'trained_0.3', 50],
+        ['amazon_kindle_20000', 'trained_0.3', 100],
+        
+        ['amazon_kindle_20000', 'trained_0.6', 25],
+        ['amazon_kindle_20000', 'trained_0.6', 50],
+        ['amazon_kindle_20000', 'trained_0.6', 100],
+        
+        ['amazon_kindle_20000', 'noembeds', 25],
+        ['amazon_kindle_20000', 'noembeds', 50],
+        ['amazon_kindle_20000', 'noembeds', 100]]
 
 
 def process_sampler(inp):
     
     dataset_name = inp[0]
     embedding_name = inp[1]
+    n_topics = inp[2]
     
     print(dataset_name, embedding_name, "entered")
 
@@ -59,7 +142,6 @@ def process_sampler(inp):
 
     beta = .01
     gamma = 10
-    n_topics = 5
     lambda_param = 1.0
     n_sentiment = dataset.sentiment.unique().shape[0]
 
@@ -87,14 +169,14 @@ def process_sampler(inp):
     sampler._initialize_(reviews = dataset.text.tolist(), labels = dataset.sentiment.tolist())
 
     try:
-        sampler.run(name=dataset_name+"_"+embedding_name, reviews=dataset.text.tolist(), labels=dataset.sentiment.tolist(), 
+        sampler.run(name=dataset_name+"_"+embedding_name+"_"+str(n_topics)+"topics", reviews=dataset.text.tolist(), labels=dataset.sentiment.tolist(), 
                     similar_words=similar_words, mrf=True, maxIters=maxIters, debug=False)
 
-        joblib.dump(sampler, "dumps/Uni_sampler_" + dataset_name + "_" + embedding_name)
-        print(dataset_name+"_"+embedding_name, "dumped")   
+        joblib.dump(sampler, "dumps/Uni_sampler_" + dataset_name + "_" + embedding_name+"_"+str(n_topics)+"topics")
+        print(dataset_name+"_"+embedding_name+"_"+str(n_topics)+"topics", "dumped")   
     except Exception as e:
         print(e)
-        print(dataset_name+"_"+embedding_name, "failed")
+        print(dataset_name+"_"+embedding_name+"_"+str(n_topics)+"topics", "failed")
         
 pool = multiprocessing.Pool(40)
 pool.map(process_sampler, grid)

@@ -4,3 +4,15 @@ amazon_kindle_20000 trained_0.3 entered
 amazon_kindle_20000 trained_0.6 entered
 amazon_kindle_20000 trained_0.3 entered
 amazon_kindle_20000 trained_0.6 entered
+** amazon_kindle_20000_trained_0.6 0
+amazon_kindle_20000_trained_0.6 failed
+** amazon_kindle_20000_trained_0.6 0
+amazon_kindle_20000_trained_0.6 failed
+** amazon_kindle_20000_trained_0.3 0
+amazon_kindle_20000_trained_0.3 failed
+** amazon_kindle_20000_trained_0.3 0
+amazon_kindle_20000_trained_0.3 failed
+** amazon_movies_20000_trained_0.6 0
+amazon_movies_20000_trained_0.6 failed
+** amazon_movies_20000_trained_0.3 0
+amazon_movies_20000_trained_0.3 failed
